@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int angka, jumlah;
+    jumlah=1;
+
+    cout << "Masukkan Angka : ";
+    cin >> angka;
+
+    while (angka>=1)
+    {
+        jumlah=jumlah*angka;
+        angka--;
+    }
+    cout << "Hasil : " <<jumlah << endl;
+    return 0;
+}
