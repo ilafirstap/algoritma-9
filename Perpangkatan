@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+
+    int i, angka, pangkat, jumlah;
+    i=1;
+    jumlah=1;
+
+        cout << "Masukkan Angka : " << endl;
+        cin >> angka;
+        cout << "Masukkan Pangkat : " << endl;
+        cin >> pangkat;
+        while (i<=pangkat) {
+
+        jumlah=jumlah*angka;
+        i++;}
+        cout << "Jumlah" << jumlah;
+
+return 0;
+}
