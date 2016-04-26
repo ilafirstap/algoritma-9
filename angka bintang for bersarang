@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  int a, b, i;
+
+  cout << "Masukkan angka :";
+  cin >> a;
+  for (int i=a; a>0; a--) {
+      for (int b=a; b>0; b--) {
+        cout << b;
+      }
+      cout <<endl;
+}
+return 0;
+}
